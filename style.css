@@ -1,0 +1,86 @@
+.container{
+display:flex;
+flex-flow: column wrap;
+
+}
+header{
+  height:100%;
+    background-color: #4267B2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+header form{
+  display: flex;
+    margin-top: 15px;
+    padding: 1px;
+    width:700px;
+    height:20px;
+    color: white;
+ 
+}
+ button{
+   margin: 10px;
+ align-self: center;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ 
+header h1{
+  font-family:  Tahoma;
+ color: white;
+  font-size: larger;
+  }
+#username{
+  align-content: start;
+}
+
+.sign-up{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-left: 900px;
+}
+#sign-up{
+  padding: 10px;
+  width: 150px;
+  border-radius:10px ;
+  background-color: #00A650;
+  color: white;
+  font-size: larger;
+  
+}
+#info input{
+  padding:10px ;
+  border-radius: 5px;
+  
+  
+}
+#birthday input{
+  padding:10px ;
+  border-radius: 5px;
+
+}
+#gender{
+  font-size: larger;
+  display: flex;
+  justify-content: space-around;
+
+}
+body{
+font-family:Tahoma ;
+background-color: lightyellow;
+
+}
+p{
+  color: #4267B2;
+  font-weight:800;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+
